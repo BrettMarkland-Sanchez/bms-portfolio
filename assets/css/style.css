@@ -1,46 +1,103 @@
-* {
-    box-sizing: border-box;
-  }
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+}
 
 body {
     font-family: Garamond;
     margin: 0;
     display: flex;
     flex-direction: column;
+    background: #fbfbec;
 }
   
 header {
-    padding: 20px;
-    text-align: center;
-    background: #022268;
+    padding: 15px;
+    margin-bottom: 3px;
+    background: #fdb939;
     color: #fff;
+    display: inline;
+    border: thick double #fff;
+    display: flex;
+}
+
+h1, h2 {
+    padding: 5px;
+}
+
+#PageTitle {
+    flex: 100%;
+    text-align: center;
+}
+
+#LinkedIn {
+    vertical-align: bottom;
+    align-self: flex-end;
 }
 
 nav {
     display: flex;
-    /* Align the child elements to the right side of the parent */
     justify-content: flex-end;
-    background-color: #e6c969;
+    background-color: #5b8efd;
+    border: thick double #fff;
 }
 
 nav a {
-    font-size: large;
-    color: #13293d;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
 }
 
-body {
-    background: #fbfbec;
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-.snapshots > div {
+#About {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+}
+
+section h2 {
+    flex: 1;
+}
+
+section div {
+    flex: 100%;
+}
+
+#Profile > img {
+    padding-right: 20px;
+    float: left;
+}
+
+#Profile p {
+    max-width: 900px;
+}
+
+card {
     border-radius: 10px;
     background-image: url("https://via.placeholder.com/300x200");
     padding: 20px;
     margin: 20px;
     float: left;
-    width: 300px;
     height: 200px;
+    width: 300px;
 }

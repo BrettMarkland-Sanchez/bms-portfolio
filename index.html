@@ -2,68 +2,102 @@
 <html lang="en">
 
     <head>
-        <title>My Portfolio</title>
+        <title>Brett's Portfolio</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
+
         <header>
-            <h1>Brett Markland-Sanchez</h1>
-            <h2>Professional Portfolio</h2>
+            <div id="PageTitle">
+                <h1>Brett Markland-Sanchez</h1>
+                <h2>Professional Portfolio</h2>
+            </div>
+            <div id="LinkedIn">
+                <a href="https://www.linkedin.com/in/brettmarkland-sanchez/">
+                    <img src="./assets/images/LI-In-Bug.png" alt="LinkedIn Profile Link">
+                </a>
+            </div>
         </header>
 
         <nav>
-            <a href="#">About Me</a>
-            <a href="#">My Work</a>
-            <a href="#">Contact Me</a>
-            <a href="#">Resume</a>
+            <a href=#About>About</a>
+            <a href=#Work>Work</a>
+            <a href=#Contact>Contact</a>
+            <a href=#Resume>Resume</a>
         </nav>
 
         <main>
-            <section class="snapshots">
-                <div>
-                    <h2>Password Generator</h2>
-                </div>
 
-                <div>
-                    <h2>Day Planner</h2>
-                </div>
-
-                <div>
-                    <h2>Weather Dashboard</h2>
-                </div>
-
-                <div>
-                    <h2>Project 1</h2>
-                </div>
-
-                <div>
-                    <h2>README Generator</h2>
-                </div>
-
-                <div>
-                    <h2>Team Profile Generator</h2>
-                </div>
-
-                <div>
-                    <h2>Note Taker</h2>
-                </div>
-
-                <div>
-                    <h2>EMS</h2>
-                </div>
-
-                <div>
-                    <h2>E-Commerce (Back)</h2>
-                </div>
-
-                <div>
-                    <h2>Tech Blog</h2>
+            <section id="About">
+                <h2>About</h2>
+                
+                <div id="Profile">
+                    <img src="./assets/images/Brett Profile Photo.png" alt="Brett's Profile Picture">
+                    
+                    <p> 
+                        Methodical Application Support Professional with 8+ years of combined IT industry experience and knowledge in deploying and supporting computer software, domains, application platforms, and knowledge bases. Graduated from the Army Signal Corps School with some college education and training in programming and web design. Accomplished in working with large enterprises of 1000+ employees using standard tools and frameworks such as ServiceNow, Atlassian Jira, Confluence, and SQL. Refined soft skills and professionalism with a background in legal assistance and white-glove customer service.
+                    </p>
                 </div>
             </section>
+
+            <section id="Work">
+                <h2>Work</h2>
+                <div id="Content">
+                    <card>
+                        <h2>Password Generator</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Day Planner</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Weather Dashboard</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Project 1</h2>
+                    </card>
+    
+                    <card>
+                        <h2>README Generator</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Team Profile Generator</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Note Taker</h2>
+                    </card>
+    
+                    <card>
+                        <h2>EMS</h2>
+                    </card>
+    
+                    <card>
+                        <h2>E-Commerce (Back)</h2>
+                    </card>
+    
+                    <card>
+                        <h2>Tech Blog</h2>
+                    </card>
+                </div>
+            </section>
+
+            <section id="Contact">
+                <h2>Contact</h2>
+            </section>
+
+            <section id="Resume">
+                <h2>Resume</h2>
+            </section>
+
         </main>
     </body>
 
