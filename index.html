@@ -7,36 +7,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
-    <body>
+    <body class="container">
 
         <header>
             <div id="PageTitle">
                 <h1>Brett Markland-Sanchez</h1>
                 <h2>Professional Portfolio</h2>
             </div>
-            <div id="LinkedIn">
-                <a href="https://www.linkedin.com/in/brettmarkland-sanchez/">
+            <div id="linkedIn" class="link">
+                <a href="https://www.linkedin.com/in/brettmarkland-sanchez/" target="_blank">
                     <img src="./assets/images/LI-In-Bug.png" alt="LinkedIn Profile Link">
+                </a>
+            </div>
+            <div id="gitHub" class="link">
+                <a href="https://github.com/BrettMarkland-Sanchez" target="_blank">
+                    <img src="./assets/images/GitHub.png" alt="GitHub Profile Link">
                 </a>
             </div>
         </header>
 
         <nav>
-            <a href=#About>About</a>
-            <a href=#Work>Work</a>
-            <a href=#Contact>Contact</a>
-            <a href=#Resume>Resume</a>
+            <a href=#about>About</a>
+            <a href=#work>Work</a>
+            <a href=#contact>Contact</a>
+            <a href=#resume>Resume</a>
         </nav>
 
         <main>
 
-            <section id="About">
+            <section id="about">
                 <h2>About</h2>
                 
-                <div id="Profile">
+                <div id="profile">
                     <img src="./assets/images/Brett Profile Photo.png" alt="Brett's Profile Picture">
                     
                     <p> 
@@ -45,60 +52,90 @@
                 </div>
             </section>
 
-            <section id="Work">
+            <section id="work">
                 <h2>Work</h2>
-                <div id="Content">
-                    <card>
+                <div id="content">
+                    <card id="passGen">
                         <h2>Password Generator</h2>
+                        <a href="https://brettmarkland-sanchez.github.io/bms-wk-3-hw" target="_blank">SITE
+                        </a>
+                        <a href="https://github.com/BrettMarkland-Sanchez/bms-wk-3-hw" target="_blank">REPO
+                        </a>
                     </card>
     
-                    <card>
+                    <card id="jsQuiz">
+                        <h2>JavaScript Code Quiz</h2>
+                        <a href="https://brettmarkland-sanchez.github.io/bms-wk-4-hw" target="_blank">SITE
+                        </a>
+                        <a href="https://github.com/BrettMarkland-Sanchez/bms-wk-4-hw" target="_blank">REPO
+                        </a>
+                    </card>
+
+                    <card id="scheduler">
                         <h2>Day Planner</h2>
+                        <a href="https://brettmarkland-sanchez.github.io/bms-wk-5-hw" target="_blank">SITE
+                        </a>
+                        <a href="https://github.com/BrettMarkland-Sanchez/bms-wk-5-hw" target="_blank">REPO
+                        </a>
                     </card>
     
-                    <card>
+                    <card class="hide">
                         <h2>Weather Dashboard</h2>
+                        <a href="https://brettmarkland-sanchez.github.io/bms-wk-6-hw" target="_blank">SITE
+                        </a>
+                        <a href="https://github.com/BrettMarkland-Sanchez/bms-wk-6-hw" target="_blank">REPO
+                        </a>
                     </card>
     
-                    <card>
-                        <h2>Project 1</h2>
+                    <card id="project1">
+                        <h2>Project 1: Event Planner</h2>
+                        <a href="https://brettmarkland-sanchez.github.io/PowerStationProject1" target="_blank">SITE
+                        </a>
+                        <a href="https://github.com/BrettMarkland-Sanchez/PowerStationProject1" target="_blank">REPO
+                        </a>
                     </card>
     
-                    <card>
-                        <h2>README Generator</h2>
-                    </card>
-    
-                    <card>
+                    <card class="hide">
                         <h2>Team Profile Generator</h2>
                     </card>
     
-                    <card>
+                    <card class="hide">
                         <h2>Note Taker</h2>
                     </card>
     
-                    <card>
+                    <card class="hide">
                         <h2>EMS</h2>
                     </card>
     
-                    <card>
+                    <card class="hide">
                         <h2>E-Commerce (Back)</h2>
                     </card>
     
-                    <card>
+                    <card class="hide">
                         <h2>Tech Blog</h2>
                     </card>
                 </div>
             </section>
 
-            <section id="Contact">
+            <section id="contact">
                 <h2>Contact</h2>
+                <div class="card">
+                    <h3>Brett.MarklandSanchez@gmail.com</h3>
+                    <h3>(404)-754-1929</h3>
+                    <h3>Georgia Tech Research Institute</h3>
+                    <h3>Smyrna, GA</h3>
+                </div>
             </section>
 
-            <section id="Resume">
+            <section id="resume">
                 <h2>Resume</h2>
+                    <a id="download" href="./assets/resume/BMS LinkedIn Resume.pdf" download="BMS Resume" target="_blank"><div class="btn blue waves-effect waves-light">Download</div></a>
             </section>
 
         </main>
     </body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </html>

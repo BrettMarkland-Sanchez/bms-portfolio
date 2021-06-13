@@ -1,15 +1,23 @@
 h1 {
+    margin: 0;
     font-size: 2em;
     font-weight: bold;
 }
 
 h2 {
+    margin: 0;
     font-size: 1.5em;
     font-weight: bold;
 }
 
+h3 {
+    margin: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 p {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 body {
@@ -39,7 +47,8 @@ h1, h2 {
     text-align: center;
 }
 
-#LinkedIn {
+.link {
+    padding: 0 0.3em;
     vertical-align: bottom;
     align-self: flex-end;
 }
@@ -55,7 +64,7 @@ nav a {
     font-weight: bold;
     font-size: 1.1em;
     color: #fff;
-    padding: 14px 20px;
+    padding: 0 1em;
     text-decoration: none;
     text-align: center;
 }
@@ -75,29 +84,76 @@ section {
     display: flex;
 }
 
-section h2 {
-    flex: 1;
-}
-
 section div {
     flex: 100%;
 }
 
-#Profile > img {
+#profile > img {
     padding-right: 20px;
     float: left;
 }
 
-#Profile p {
+#profile p {
     max-width: 900px;
 }
 
 card {
     border-radius: 10px;
     background-image: url("https://via.placeholder.com/300x200");
-    padding: 20px;
+    padding: 5px;
     margin: 20px;
     float: left;
     height: 200px;
     width: 300px;
 }
+
+#passGen {
+    background-image: url("../images/passGen.png");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+#jsQuiz {
+    background-image: url("../images/jsQuiz.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#scheduler {
+    background-image: url("../images/scheduler.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#project1 {
+    background-image: url("../images/project1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card {
+    background-color: antiquewhite;
+    margin-left: 1em;
+}
+
+#download {
+    margin-left: 1em;
+}
+
+card h2 {
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 45%;
+}
+
+card > a:first-of-type {
+    margin-right: 57%;
+}
+
+card a {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
