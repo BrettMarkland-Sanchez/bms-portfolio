@@ -167,6 +167,9 @@ card a:active {
     .container {
         width: 100% !important;
     }
+    .card {
+        display: block;
+    }
 }
 
 #profile {
