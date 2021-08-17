@@ -1,6 +1,6 @@
 # Brett Markland-Sanchez GitHub.io
 Showcases my portfolio using GitHub pages to navigate different sections of published work.
-#### GitHub Repository: https://github.com/BrettMarkland-Sanchez/BrettMarkland-Sanchez.github.io
+#### GitHub Repository: https://github.com/BrettMarkland-Sanchez/brettmarkland-sanchez.github.io
 #### Deployed Site: https://brettmarkland-sanchez.github.io/
 #### Materialize CSS: https://materializecss.com/
 ## Concept:
@@ -12,7 +12,7 @@ Contact details and a resume download are offered at the bottom.
 ```
 ## Contact Details:
 **Brett.MarklandSanchez@gmail.com**<br>
-**(404)-754-1929**<br>
+**(404) 754-1929**<br>
 **Georgia Tech Research Institute**<br>
 **Smyrna, GA**<br>
 
