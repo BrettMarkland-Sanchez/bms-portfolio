@@ -167,7 +167,7 @@ card a:active {
     .container {
         width: 100% !important;
     }
-    .card h3 {
+    h3 {
         font-size: 1em;
     }
 }
