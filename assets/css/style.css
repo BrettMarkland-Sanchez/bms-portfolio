@@ -165,7 +165,7 @@ card a:active {
         float: right; 
     }
     .container {
-        width: 100%;
+        all: unset;
     }
 }
 
