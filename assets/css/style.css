@@ -164,6 +164,9 @@ card a:active {
     #icons {
         float: right; 
     }
+    .container {
+        display: none !important;
+    }
 }
 
 #profile {
