@@ -1,13 +1,15 @@
-h1 {
+h1, h2 {
     margin: 0;
-    font-size: 2em;
+    padding: 5px;
     font-weight: bold;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 h2 {
-    margin: 0;
     font-size: 1.5em;
-    font-weight: bold;
 }
 
 h3 {
@@ -38,35 +40,28 @@ header {
     display: flex;
 }
 
-h1, h2 {
-    padding: 5px;
+@media screen and (max-width: 700px) {
+    header {
+        display: inline-block;
+    }
 }
 
-#PageTitle {
-    flex: 100%;
-    text-align: center;
-}
-
-.link {
-    padding: 0 0.3em;
-    vertical-align: bottom;
-    align-self: flex-end;
-}
-
-nav {
+navi {
     display: flex;
     justify-content: flex-end;
     background-color: #5b8efd;
     border: thick double #fff;
+    line-height: 3em;
 }
 
-nav a {
+navi a {
     font-weight: bold;
     font-size: 1.1em;
     color: #fff;
-    padding: 0 1em;
+    padding-right: 1em;
     text-decoration: none;
     text-align: center;
+    line-height: auto;
 }
 
 main {
@@ -75,85 +70,118 @@ main {
     padding: 20px;
 }
 
-#About {
-    display: flex;
-    flex-direction: row;
-}
-
 section {
     display: flex;
-}
-
-section div {
-    flex: 100%;
-}
-
-#profile > img {
-    padding-right: 20px;
-    float: left;
-}
-
-#profile p {
-    max-width: 900px;
 }
 
 card {
     border-radius: 10px;
     background-image: url("https://via.placeholder.com/300x200");
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 5px;
-    margin: 20px;
+    margin: 1em 0 1em 1em;
     float: left;
     height: 200px;
     width: 300px;
+    border: thick double black;
 }
 
-#passGen {
-    background-image: url("../images/passGen.png");
-    background-repeat: no-repeat;
-    background-size: contain;    
+card h2 {
+    background: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 45%;
 }
 
-#jsQuiz {
-    background-image: url("../images/jsQuiz.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+card a {
+    background: rgba(0, 81, 255, 0.5);
+    border-radius: 10px;
+    padding: .5em;
+    font-weight: bold;
+    margin-right: .5em;
+    color: #fff;
 }
 
-#scheduler {
-    background-image: url("../images/scheduler.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+card a:hover {
+    background-color: rgb(0, 81, 255);
 }
 
-#project1 {
-    background-image: url("../images/project1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+card a:active {
+    background-color: white;
+    color: blue;
 }
 
 .card {
-    background-color: antiquewhite;
+    background-color: rgb(252, 213, 161);
+    border: thick solid white;
     margin-left: 1em;
+}
+
+.card a {
+    color: black;
+}
+
+.link {
+    padding: 0 0.3em;
+    vertical-align: bottom;
+    align-self: flex-end;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#photo {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+#pageTitle {
+    flex: 100%;
+    text-align: center;
+    padding-left: 120px;
+}
+
+#linkedIn, #gitHub {
+    display: inline-block;
+}
+
+#icons {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    #pageTitle {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 1em;
+    }
+    #icons {
+        float: right; 
+    }
+}
+
+#profile {
+    border-radius: 10px;
+    margin-left: 1em;
+    background-color: #fff;
+}
+
+#profile p {
+    max-width: 900px;
+    padding: 1em;
+    line-height: 1.5em;
 }
 
 #download {
     margin-left: 1em;
 }
 
-card h2 {
-    background: rgba(255, 255, 255, 0.5);
-    margin-bottom: 45%;
+#resume a:hover {
+    background-color: blue !important;
 }
-
-card > a:first-of-type {
-    margin-right: 57%;
-}
-
-card a {
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 1.3em;
-    font-weight: bolder;
-}
-
