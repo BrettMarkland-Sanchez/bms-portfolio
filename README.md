@@ -18,3 +18,4 @@ Contact details and a resume download are offered at the bottom.
 
 ## Screenshots:
 ### Homepage
+![Homepage](./assets/images/portfolio.png)
