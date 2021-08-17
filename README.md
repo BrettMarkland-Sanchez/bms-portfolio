@@ -1,4 +1,4 @@
-# Brett Markland-Sanchez GitHub.io Page
+# Brett Markland-Sanchez GitHub.io
 Showcases my portfolio using GitHub pages to navigate different sections of published work.
 #### GitHub Repository: https://github.com/BrettMarkland-Sanchez/BrettMarkland-Sanchez.github.io
 #### Deployed Site: https://brettmarkland-sanchez.github.io/
