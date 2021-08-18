@@ -33,7 +33,7 @@ body {
 header {
     padding: 15px;
     margin-bottom: 3px;
-    background: #fdb939;
+    background: #fdbb00;
     color: #fff;
     display: inline;
     border: thick double #fff;
@@ -49,7 +49,7 @@ header {
 navi {
     display: flex;
     justify-content: flex-end;
-    background-color: #5b8efd;
+    background-color: #5b8ef0;
     border: thick double #fff;
     line-height: 3em;
 }
