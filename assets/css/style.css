@@ -128,6 +128,12 @@ card a:active {
     color: black;
 }
 
+.card a h3:hover {
+    text-decoration: underline;
+    text-underline-offset: .2em;
+    text-decoration-thickness: 1px;
+}
+
 .link {
     padding: 0 0.3em;
     vertical-align: bottom;
