@@ -1,7 +1,7 @@
-# Brett Markland-Sanchez GitHub.io
-Showcases my portfolio using GitHub pages to navigate different sections of published work.
+# BMS Portfolio
+Showcases my coding portfolio using GitHub pages to navigate different sections of published work.
 #### GitHub Repository: https://github.com/BrettMarkland-Sanchez/brettmarkland-sanchez.github.io
-#### Deployed Site: https://brettmarkland-sanchez.github.io/
+#### Deployed Site: https://brettmarkland-sanchez.github.io/bms-portfolio/
 #### Materialize CSS: https://materializecss.com/
 ## Concept:
 ```
